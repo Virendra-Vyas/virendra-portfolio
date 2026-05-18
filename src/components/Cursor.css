@@ -1,0 +1,6 @@
+.cursor-dot,.cursor-ring{position:fixed;border-radius:50%;pointer-events:none;z-index:8000;transform:translate(-50%,-50%)}
+.cursor-dot{width:8px;height:8px;background:var(--gd);transition:width .3s,height .3s}
+.cursor-ring{width:36px;height:36px;border:1px solid rgba(212,165,58,.35);transition:width .4s,height .4s}
+.cursor-dot.big{width:4px;height:4px}
+.cursor-ring.big{width:62px;height:62px;border-color:var(--gd)}
+.cursor-trail{position:fixed;border-radius:50%;background:var(--gd);pointer-events:none;z-index:7990;transform:translate(-50%,-50%)}

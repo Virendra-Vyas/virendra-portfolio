@@ -1,0 +1,5 @@
+.mq{overflow:hidden;border-top:1px solid var(--b);border-bottom:1px solid var(--b);padding:.75rem 0;background:var(--s1)}
+.mq-track{display:flex;width:max-content;animation:mqs 36s linear infinite}
+@keyframes mqs{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+.mq-track span{font-family:var(--mono);font-size:.67rem;color:var(--tm);padding:0 1.75rem;white-space:nowrap}
+.mq-track span.hi{color:var(--gd)}
